@@ -33,19 +33,18 @@ Four t-tests were completed for 1) all manufacturing lots combined, 2) manufactu
 
 The summary of the t-test results showed that the null hypothesis is accepted for the t-test for all manufacturing lots combined, LOT 1, and LOT 2 because the p-values are greater than 0.05. The null hypothesis states that there is no statistical difference between the lot tested and the mean PSI of 1500.
 
-The null hypothesis is rejected for LOT 3 because the p-value of 0.042 is less than the significance level of 0.05.
+The null hypothesis is rejected for LOT 3 because the p-value of 0.042 is less than the significance level of 0.05. There is a statistical difference between LOT 3 and population mean of 1500 PSI.
 
 ## Deliverable 4: Study Design: MechaCar versus Competition
 ### 
-The mpg and vehicle weight will be analyzed for the MechaCar dataset versus the competition.
+The mpg and vehicle weight will be analyzed for the MechaCar dataset versus the competition dataset.
 ### 
 The null hypothesis for mpg states there is no statistical difference between the means of the two samples (MechaCar mpg and competition mpg). The alternative hypothesis states that there is a statistical difference between the means of the two samples.
 ### 
-A two-sample t-test will be conducted to test the null hypothesis. There are also five assumptions regarding our input data when using the two-sample t-Test, which are the same as the one-sample t-Test:
+A two-sample t-test will be conducted to test the null hypothesis. There are also several assumptions regarding the mpg data when using the two-sample t-Test, which are the same as the one-sample t-Test in Deliverable 3:
 The input data is numerical and continuous.
 Each sample data was selected randomly from the population data.
 The input data is considered to be normally distributed.
-Each sample size is reasonably large. Generally speaking, this means that the sample data distribution should be similar to its population data distribution.
-The variance of the input data should be very similar.
+Each sample size is reasonably large.
 ### 
-The means for overall mpg will be determined for both datasets using the mpg data. Additionally, the data will be grouped by vehicle weight and new means will be calculated for two categories of vehicle weight: 2000-6000 pounds and 6001-10000 pounds. Another column of data will be utilized - vehicle weight. The additional two-sample t-tests will show if there is a statistical difference in the mean mpg between the MechaCar prototypes and the competition for vehicles in the 2000-6000 lb range and 6001-10000 lb range.  
+The means for overall mpg will be statistically compared for both datasets using the mpg data. Additionally, the data will be grouped by vehicle weight and new means will be calculated for two categories of vehicle weight: 2000-6000 pounds and 6001-10000 pounds. Another column of data will be utilized - vehicle weight. The additional two-sample t-tests will show if there is a statistical difference in the mean mpg between the MechaCar prototypes and the competition for vehicles in the 2000-6000 lb range and 6001-10000 lb range. The overall data analysis will contain three two-sample t-tests: overall mpg, mpg for vehicles weighing 2000-6000lbs, and mpg for vehicles weighing 6001-10000 lbs.
