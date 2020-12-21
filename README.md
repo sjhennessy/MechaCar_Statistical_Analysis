@@ -26,13 +26,11 @@ The variances for LOT 1 and LOT 2 are also less than 100 PSI at 0.98 and 7.47 PS
 ![Lot_summary](https://user-images.githubusercontent.com/69759624/102734707-1cfadf00-4306-11eb-9173-9bf9b7f03433.PNG)
 
 ## Deliverable 3: T-Test on Suspension Coils
-An RScript was written for three t-tests that compares each manufacturing lot against mean PSI of the population.
+Four t-tests were completed for 1) all manufacturing lots combined, 2) manufacturing LOT 1, 3) manufacturing LOT 2, and 4) manufacturing LOT 3 to compare each manufacturing lot against the mean PSI of the population (1500 PSI).
 
-The summary of the t-test results across all manufacturing lots and for each lot is below:
-Overall, accept null hypothesis
-LOT 1 accept null
-LOT 2 accept null
-LOT 3 reject null because p<0.05
+![image](https://user-images.githubusercontent.com/69759624/102735639-9398dc00-4308-11eb-960a-ee0ef12908c1.png)
+
+The summary of the t-test results showed that the null hypothesis is accepted for the t-test for all manufacturing lots combined, LOT 1, and LOT 2 because the p-values are greater than 0.05. The null hypothesis is rejected for LOT 3 because the p-value of 0.042 is less than the significance level of 0.05.
 
 ## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 ### A metric to be tested is mentioned
