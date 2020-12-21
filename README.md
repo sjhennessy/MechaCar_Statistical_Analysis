@@ -19,10 +19,10 @@ The r-squared value is 0.7149 which shows the linear model does predict mpg of t
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually?
 
 ### Design specification requirement for all the manufacturing lots and each lot individually
-The overall variance for the three combined lots is less than 100 PSI with a value of 62.29 PSI.
+The overall variance for the three combined lots is less than 100 PSI with a value of 62.29 PSI. This result meets the design specification.
 ![Total_summary](https://user-images.githubusercontent.com/69759624/102734267-0d2ecb00-4305-11eb-90f1-97bef5d1af11.PNG)
 
-The variances for LOT 1 and LOT 2 are also less than 100 PSI at 0.98 and 7.47 PSI, respectively. Only the variance for LOT 3 is greater than 100 PSI with a value of 170.29 PSI.
+The variances for LOT 1 and LOT 2 are also less than 100 PSI at 0.98 and 7.47 PSI, respectively, and both lots meet the design specification. Only the variance for LOT 3 is greater than 100 PSI with a value of 170.29 PSI, and LOT 3 does not meet the design specification.
 ![Lot_summary](https://user-images.githubusercontent.com/69759624/102734707-1cfadf00-4306-11eb-9173-9bf9b7f03433.PNG)
 
 ## Deliverable 3: T-Test on Suspension Coils
