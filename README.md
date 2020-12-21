@@ -1,12 +1,11 @@
 # MechaCar_Statistical_Analysis
-The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were analyzed to determine if the factors have a significant impact on miles per gallon.
 
 ## Deliverable 1: Linear Regression to Predict MPG
+The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were analyzed to determine if the factors have a significant impact on miles per gallon.
+
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero?
 Does this linear model predict mpg of MechaCar prototypes effectively?
-
-![Deliverable_1_MPG](https://user-images.githubusercontent.com/69759624/102737046-fc358800-430b-11eb-9529-e13b07771444.PNG)
 
 ![Linear_regression](https://user-images.githubusercontent.com/69759624/102735097-26387b80-4307-11eb-8ca5-a8e64d024539.PNG)
 
@@ -37,7 +36,7 @@ The summary of the t-test results showed that the null hypothesis is accepted fo
 The null hypothesis is rejected for LOT 3 because the p-value of 0.042 is less than the significance level of 0.05.
 
 ## Deliverable 4: Study Design: MechaCar versus Competition
-### A metric to be tested is mentioned
-### A null hypothesis or an alternative hypothesis is described
-### A statistical test is described to test the hypothesis
-### The data for the statistical test is described
+### The mpg and vehicle weight will be analyzed for the MechaCar dataset versus the competition.
+### The null hypothesis for mpg states there is no statistical difference between the means of the two samples (MechaCar mpg and competition mpg). The alternative hypothesis is states that there is a statistical difference between the means of the two samples.
+### A two-sample t-test will be conducted to test the null hypothesis.
+### The means for overall mpg will be determined for both datasets. Additionally, the data will be grouped by vehicle weight and new means will be calculated for three categories of vehicle weight. 
