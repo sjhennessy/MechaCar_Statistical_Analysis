@@ -5,8 +5,8 @@ The MechaCar prototypes were produced using multiple design specifications to id
 write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Is the slope of the linear model considered to be zero?
+Does this linear model predict mpg of MechaCar prototypes effectively?
 
 Overall, the p-value is 5.35x10E-11 and this number is less than the significance value of 0.05. We reject the null hypothesis and state there's a correlation between the car factors and mile per gallon. The factors that provide a non-random amount of variance to the mpg values are car weight, spoiler angle, and drivetrain (i.e. AWD).
 
@@ -16,13 +16,14 @@ The r-squared value is 0.7149 which shows the linear model does predict mpg of t
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually?
 
 ### Design specification requirement for all the manufacturing lots and each lot individually
 The overall variance for the three combined lots is less than 100 PSI with a value of 62.29 PSI.
 ![Total_summary](https://user-images.githubusercontent.com/69759624/102734267-0d2ecb00-4305-11eb-90f1-97bef5d1af11.PNG)
 
-The variance for LOT 1 and LOT 2 are also less than 100 PSI. Only the variance for LOT 3 is greater than 100 PSI.
+The variances for LOT 1 and LOT 2 are also less than 100 PSI at 0.98 and 7.47 PSI, respectively. Only the variance for LOT 3 is greater than 100 PSI with a value of 170.29 PSI.
+![Lot_summary](https://user-images.githubusercontent.com/69759624/102734707-1cfadf00-4306-11eb-9173-9bf9b7f03433.PNG)
 
 ## Deliverable 3: T-Test on Suspension Coils
 An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt)
