@@ -12,7 +12,7 @@ Overall, the p-value is 5.35x10E-11 and this number is less than the significanc
 
 The slope of the linear model is not zero and we reject the null hypothesis. We accept the alternative hypothesis and state that the slope is a non-zero value.
 
-The r-squared value is 0.7149 which shows the linear model does predict mpg of the MechaCar prototypes effectively.
+The r-squared value is 0.7149 which shows the linear model does predict mpg of the MechaCar prototypes effectively. The mpg is dependent on the car weight, spoiler angle, and drivetrain.
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
 
@@ -30,9 +30,11 @@ Four t-tests were completed for 1) all manufacturing lots combined, 2) manufactu
 
 ![image](https://user-images.githubusercontent.com/69759624/102735639-9398dc00-4308-11eb-960a-ee0ef12908c1.png)
 
-The summary of the t-test results showed that the null hypothesis is accepted for the t-test for all manufacturing lots combined, LOT 1, and LOT 2 because the p-values are greater than 0.05. The null hypothesis is rejected for LOT 3 because the p-value of 0.042 is less than the significance level of 0.05.
+The summary of the t-test results showed that the null hypothesis is accepted for the t-test for all manufacturing lots combined, LOT 1, and LOT 2 because the p-values are greater than 0.05. The null hypothesis states that there is no statistical difference between the lot tested and the mean PSI of 1500.
 
-## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+The null hypothesis is rejected for LOT 3 because the p-value of 0.042 is less than the significance level of 0.05.
+
+## Deliverable 4: Study Design: MechaCar versus Competition
 ### A metric to be tested is mentioned
 ### A null hypothesis or an alternative hypothesis is described
 ### A statistical test is described to test the hypothesis
