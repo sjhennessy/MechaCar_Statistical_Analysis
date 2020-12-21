@@ -37,6 +37,6 @@ The null hypothesis is rejected for LOT 3 because the p-value of 0.042 is less t
 
 ## Deliverable 4: Study Design: MechaCar versus Competition
 ### The mpg and vehicle weight will be analyzed for the MechaCar dataset versus the competition.
-### The null hypothesis for mpg states there is no statistical difference between the means of the two samples (MechaCar mpg and competition mpg). The alternative hypothesis is states that there is a statistical difference between the means of the two samples.
+### The null hypothesis for mpg states there is no statistical difference between the means of the two samples (MechaCar mpg and competition mpg). The alternative hypothesis states that there is a statistical difference between the means of the two samples.
 ### A two-sample t-test will be conducted to test the null hypothesis.
-### The means for overall mpg will be determined for both datasets. Additionally, the data will be grouped by vehicle weight and new means will be calculated for three categories of vehicle weight. 
+### The means for overall mpg will be determined for both datasets using the mpg data. Additionally, the data will be grouped by vehicle weight and new means will be calculated for two categories of vehicle weight: 2000-6000 pounds and 6001-10000 pounds. Another column of data will be utilized - vehicle weight. The additional two-sample t-tests will show if there is a statistical difference in the mean mpg between the MechaCar prototypes and the competition for vehicles in the 2000-6000 lb range and 6001-10000 lb range.  
