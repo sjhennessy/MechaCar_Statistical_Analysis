@@ -6,6 +6,8 @@ Which variables/coefficients provided a non-random amount of variance to the mpg
 Is the slope of the linear model considered to be zero?
 Does this linear model predict mpg of MechaCar prototypes effectively?
 
+![Deliverable_1_MPG](https://user-images.githubusercontent.com/69759624/102737046-fc358800-430b-11eb-9529-e13b07771444.PNG)
+
 ![Linear_regression](https://user-images.githubusercontent.com/69759624/102735097-26387b80-4307-11eb-8ca5-a8e64d024539.PNG)
 
 Overall, the p-value is 5.35x10E-11 and this number is less than the significance value of 0.05. We reject the null hypothesis and state there's a correlation between the car factors and mile per gallon. The factors that provide a non-random amount of variance to the mpg values are car weight, spoiler angle, and drivetrain (i.e. AWD) because the individual p-values are greater than the significance level of 0.05 and have values of 0.0776, .3069, and .1852, respectively.
